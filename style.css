@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 40px;
     line-height: 0;
+    text-align: center;
 }
 
 img {
@@ -20,4 +21,19 @@ img {
 
 span {
     margin-right: 10px;
+}
+
+
+#search {
+    padding-bottom: 15px;
+     border-style: groove;
+    border-width: 2px;
+    border-color: darkgrey;
+}
+
+#records {
+    margin-top: 40px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: darkgrey;
 }
