@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NYT</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </head>
+    
+<body>
+        
+        
+<div class="container">
+        <!--Input Container--> 
+    <div class="jumbotron header">
+    <h1 class="display-4"><span><img src="Newspaper-Articles-512.png"></span>New York Times Search</h1>
+</div>
+
+
+<div class="card" id="search">
+        <div class="card-header">
+          Search Parameters
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Search Term:</h5>
+          <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" id="searchTerm">
+        </div>
+        
+        <div class="card-body">
+            <h5 class="card-title">Number of Records to Retrieve:</h5>
+                 <div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+
+            
+        <div class="col-lg-4">
+            <button type="button" class="btn btn-secondary search-btn">Search</button>
+            <button type="button" class="btn btn-secondary clear-btn">Clear Results</button>
+        </div>
+    </div>
+
+
+<!--Results Container--> 
+
+
+
+
+    <div class="list-group">
+    
+    </div>
+</div>
+</body>
+
+</html>
